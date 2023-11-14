@@ -57,6 +57,7 @@ input {
     height: 8vh;
     border: 1px solid;
     border-radius: 5px;
+    max-width: 720px;
 }
 input[type="search"]{
     padding: 1rem;
@@ -144,5 +145,105 @@ li > a {
 @media only screen and (min-width: 550px) {
     .section-title > h1 {
         font-size: 4rem;
+    }
+    .container {
+        padding: 4rem 4rem 0 4rem;
+    }
+    .footer-info {
+        width: 26rem;
+        padding: 1.875rem;
+    }
+}
+@media only screen and (min-width: 660px) {
+    .footer-column-copyright {
+        margin-left: 29rem;
+        position: relative;
+        bottom: 10rem;
+    }
+    footer {
+        height: 38rem;
+    }
+
+}
+@media only screen and (min-width: 780px) {
+    .section-title > h1 {
+        font-size: 5rem;
+    }
+    .header-container {
+        padding: 0 4rem 0 4rem;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 4rem;
+    }
+    .container-info.first {
+        margin: 0;
+    }
+    .container-info {
+    }
+    footer {
+        height: 100%;
+    }
+    .footer-column-copyright {
+        bottom: 0;
+    }
+    .footer-info {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .footer-info {
+        display: flex;
+        gap: 1rem;
+        padding-left: 5rem;
+    }
+    .footer-column-copyright {
+        margin-left: 44rem;
+        bottom: 8rem;
+    }
+    footer {
+        height: 26rem;
+    }
+    .container-image {
+        height: 5rem;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .footer-info {
+        gap: 4rem;
+    }
+    .footer-column-copyright {
+        margin-left: 66rem;
+    }
+    .container {
+        padding: 8rem 8rem 4rem 8rem;
+    }
+    .header-svg {
+        visibility: hidden;
+    }
+    .submit-request {
+        border: 1px solid white;
+        border-radius: 5px;
+        height: 50px;
+        width: 230px;
+    }
+    .submit-request > a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .sign-in > a {
+        text-decoration: none;
+        color: white;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .footer-info {
+        gap: 16rem;
+    }
+    .footer-column-copyright {
+        margin-left: 100rem;
     }
 }
