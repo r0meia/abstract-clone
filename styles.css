@@ -273,4 +273,7 @@ li > a {
     .footer-column-copyright {
         margin-left: 100rem;
     }
+    .header-container {
+        padding: 0 8rem;
+    }
 }
